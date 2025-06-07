@@ -33,7 +33,7 @@ For some examples you can look at the official plugins at [the official reposito
 
 # Minimum Version
 
-All plugins should work with all versions so you can keep the minimum version to 1.12.0. Note that the past_data parameter passes data directly from the db, and newer versions of the server might pass more data, for more details look at the database.d.ts file.
+All plugins should work with all versions so you can keep the minimum version to 1.12.0.
 
 ## Features
 

@@ -3,6 +3,7 @@
     "paths": {
       "#/*": ["./*"],
       "#types/*": ["./types/*"],
+      "#type/*": ["./types/*"],
       "#Modules/*": ["./Modules/*"]
     },
     "noImplicitAny": true,
