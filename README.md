@@ -1,3 +1,7 @@
+# Fantasy Manager Plugin Template
+
+> **For AI coding agents**: See [AGENTS.md](./AGENTS.md) for project structure, conventions, and modification guidance.
+
 # How to Create a Plugin
 
 1. Just use this repository as a template and then go into the plugin folder.

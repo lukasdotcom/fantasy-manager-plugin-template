@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "noEmit": true,
     "paths": {
       "#/*": ["./*"],
       "#types/*": ["./types/*"],
@@ -21,5 +22,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
-  "include": ["./plugin/index.ts"]
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules"]
 }

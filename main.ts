@@ -6,6 +6,7 @@ async function main() {
     players: [],
     clubs: [],
     timestamp: 0,
+    transferOpen: true,
   });
   console.log(result);
 }
