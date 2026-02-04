@@ -16,18 +16,10 @@ const compat = new FlatCompat({
 export default [
   {
     ignores: [
-      "**/.next",
-      "**/.cache",
       "**/node_modules",
-      "**/public",
-      "scripts/data/*.js",
-      "scripts/*.js",
-      "Modules/*.js",
+      "**/*.js",
       "scripts/data",
-      "**/cypress.config.js",
-      "cypress/e2e/*.js",
-      "!cypress/e2e/*.cy.js",
-      "**/next.config.js",
+      "Modules/*.js",
       "eslint.config.mjs",
     ],
   },
@@ -36,26 +28,16 @@ export default [
     plugins: {
       "@typescript-eslint": typescriptEslint,
     },
-
     languageOptions: {
       parser: tsParser,
     },
-
     rules: {
       "@typescript-eslint/no-explicit-any": "error",
       "no-var": "error",
       "no-implied-eval": "error",
       "no-eval": "error",
       "no-const-assign": "error",
-      "cypress/unsafe-to-chain-command": "off",
       "@typescript-eslint/no-unused-expressions": "off",
-
-      "no-restricted-imports": [
-        "error",
-        {
-          patterns: ["@mui/*/*/*", "!@mui/material/test-utils/*"],
-        },
-      ],
     },
   },
 ];
